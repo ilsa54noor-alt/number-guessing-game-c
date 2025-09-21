@@ -13,7 +13,6 @@ int main()
     int random_number = (rand()%100) + 1;
     int guessed_number;
     int no_of_guesses = 0;
-    
     do
     {
     printf("Guessed Number=\n");
