@@ -7,8 +7,10 @@
 
 int main()
 {
-    printf("NUMBER GUESSING GAME\n");
+   printf("NUMBER GUESSING GAME\n");    printf("Enter your guess= 1 to 100\n");
+
     srand(time(0));
+
     int random_number = (rand()%100) + 1;
     int guessed_number;
     int no_of_guesses = 0;
