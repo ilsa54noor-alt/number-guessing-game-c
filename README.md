@@ -7,7 +7,7 @@
 
 int main()
 {
-   printf("NUMBER GUESSING GAME\n");    printf("Enter your guess= 1 to 100\n");
+   printf("NUMBER GUESSING GAME\n");    printf("Guess a number between 1 and 100\n");
 
     srand(time(0));
 
@@ -17,15 +17,15 @@ int main()
     
     do
     {
-    printf("Guessed Number=\n");
+    printf("Enter your guess=\n");
     scanf("%d",&guessed_number);
     no_of_guesses++;
     
      if(guessed_number<random_number){
-      printf("Higher!!!!!\n");
+      printf("Too low — guess higher\n");
     }
      else if(guessed_number>random_number){
-     printf("Lower!!!!!\n");
+     printf("Too high — guess lower”\n");
      }
     else{
     printf("congrats🎉🎉\n");
